@@ -1,0 +1,160 @@
+body {
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  padding: 20px;
+ /* background-image : url('C:\Users\nisha\Desktop\gift recomendation - Copy\bg.gif');*/
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: #020202;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #ff4081;
+  text-shadow: 0 0 5px #ff4081;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #00ffff;
+  border: 1px solid #00ffff;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #00ffff;
+  text-shadow: 0 0 3px #00ffff;
+}
+
+input[type="text"], select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #05445E;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #333;
+  color: #d1cf4e;
+}
+
+button {
+  background-color: #ff4081;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 2px 6px #ff4081;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #666;
+  color: #999;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: #ff80ab;
+}
+
+#recommendations-container { /* New container for recommendations */
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.recommendation-box { /* New class for recommendation boxes */
+  background-color: rgba(243, 243, 243, 0.7);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #6cb6c4;
+  border: 1px solid #D4F1F4;
+  color: #000000;
+  font-weight: bolder;
+  line-height: 1.6; /* Improved readability */
+}
+
+p {
+  text-align: center;
+  color: #000000;
+  font-weight: bolder;
+}
+
+.p-error {
+  color: #ff0000;
+  text-shadow: 0 0 3px #ff0000;
+}
+button[disabled] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Recommendation.css */
+.recommendation-card {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.recommendation-header {
+  margin-bottom: 10px;
+}
+
+.recommendation-title {
+  color: white;
+  font-size: 24px;
+}
+
+.recommendation-content {
+  color: rgb(255, 255, 255);
+}
+
+.recommendation-platforms {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.recommendation-platform {
+  margin-bottom: 5px;
+}
+
+.recommendation-link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.recommendation-deal {
+  color: green;
+}/* Recommendation.css or index.css */
+.recommendation-link-button {
+  margin-top: 10px;
+  background-color: #4f46e5;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recommendation-link-button:hover {
+  background-color: #4338ca;
+}
+
+.recommendation-no-link {
+  margin-top: 10px;
+  color: #888; /* Gray color for "Link not available" */
+  font-style: italic; /* Italicize the text */
+}
