@@ -6,7 +6,7 @@ import GiftList from './components/GiftList';
 function App() {
   const [recommendations, setRecommendations] = useState([]);
 
-  const handleRecommendations = (t) => {
+  const handleRecommendations = (data) => {
     // Here we'll call the Gemini API and set the recommendations
     setRecommendations(data);
   };
