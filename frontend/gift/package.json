@@ -17,7 +17,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-localhost": "PUBLIC_URL=/frontend/gift/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
